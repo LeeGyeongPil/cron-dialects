@@ -1,0 +1,9 @@
+service: report-jobs
+provider:
+  name: aws
+  runtime: python3.12
+functions:
+  weekdayReport:
+    handler: handler.run
+    events:
+      - schedule: cron(0 12 * * MON-FRI *)

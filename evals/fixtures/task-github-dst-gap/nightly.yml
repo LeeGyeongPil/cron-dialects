@@ -1,0 +1,11 @@
+name: nightly
+on:
+  schedule:
+    - cron: '30 2 * * *'
+      timezone: "America/New_York"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/nightly.sh

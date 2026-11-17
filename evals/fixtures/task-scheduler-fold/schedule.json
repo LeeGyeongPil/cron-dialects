@@ -1,0 +1,6 @@
+{
+  "Name": "nightly-cleanup",
+  "ScheduleExpression": "cron(30 1 * * ? *)",
+  "ScheduleExpressionTimezone": "America/New_York",
+  "FlexibleTimeWindow": {"Mode": "OFF"}
+}

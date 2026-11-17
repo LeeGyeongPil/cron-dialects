@@ -1,0 +1,2 @@
+# monthly sales report - first Monday of the month, 09:00 UTC
+0 9 1-7 * 1 /opt/reports/monthly_sales.sh >> /var/log/monthly_sales.log 2>&1
