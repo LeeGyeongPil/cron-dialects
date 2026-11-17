@@ -1,0 +1,12 @@
+{
+  "name": "cron-dialects-skill",
+  "owner": {"name": "LeeGyeongPil"},
+  "description": "Agent skill that computes and verifies cron schedules per scheduler dialect, with time zones and DST.",
+  "plugins": [
+    {
+      "name": "cron-dialects",
+      "source": "./",
+      "description": "Computes real run times for cron schedules per scheduler dialect, with time zones and DST, and proves conversions between dialects."
+    }
+  ]
+}

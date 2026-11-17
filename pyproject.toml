@@ -1,0 +1,18 @@
+[project]
+name = "cron-dialects"
+version = "0.1.0"
+description = "Agent skill: interpret, convert and verify cron expressions per scheduler dialect, with time zones and DST."
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "LeeGyeongPil" }]
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8", "pytest-cov>=5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["skills/cron-dialects/scripts"]
+
+[tool.uv]
+package = false

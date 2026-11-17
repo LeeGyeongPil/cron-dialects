@@ -1,0 +1,10 @@
+{
+  "name": "cron-dialects",
+  "version": "0.1.0",
+  "description": "Computes real run times for cron schedules per scheduler dialect, with time zones and DST, and proves conversions between dialects by diffing a year of run instants.",
+  "author": {"name": "LeeGyeongPil"},
+  "license": "MIT",
+  "homepage": "https://github.com/LeeGyeongPil/cron-dialects",
+  "repository": "https://github.com/LeeGyeongPil/cron-dialects",
+  "keywords": ["cron", "scheduler", "dst", "kubernetes", "github-actions", "quartz", "eventbridge", "agent-skill"]
+}
