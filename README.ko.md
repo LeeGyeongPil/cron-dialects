@@ -197,6 +197,17 @@ python3 skills/cron-dialects/scripts/cronx.py next "0 12 * * *" --dialect unix -
 
 ## 검증 결과
 <!-- skill-eval:start -->
+| 확인 | 결과 |
+|---|---|
+| 필요할 때 불림 | 13/13 |
+| 필요 없을 때 안 불림 | 12/12 |
+| 스킬로 푼 작업 | 6/6 |
+| 스킬 없이 푼 작업(기준선) | 0/6 |
+| 평균 점수 차이(Δ) | +0.68 |
+| 가짜 스크립트를 잡아낸 비율 | 6/6 |
+| Codex CLI | 작업 6/6 통과 · 확인됨 |
+
+Claude Code 2.1.322 · sonnet · 케이스마다 3회 · 2026-11-17 측정 · codex-cli 0.154.0
 <!-- skill-eval:end -->
 
 ## 동작 원리

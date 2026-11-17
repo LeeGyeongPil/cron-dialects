@@ -195,6 +195,17 @@ python3 skills/cron-dialects/scripts/cronx.py next "0 12 * * *" --dialect unix -
 
 ## Verified behavior
 <!-- skill-eval:start -->
+| Check | Result |
+|---|---|
+| Triggers when it should | 13/13 |
+| Stays quiet when it should not | 12/12 |
+| Tasks solved with the skill | 6/6 |
+| Tasks solved without it (baseline) | 0/6 |
+| Mean score gain (Δ) | +0.68 |
+| Tasks that catch a broken script | 6/6 |
+| Codex CLI | 6/6 tasks · verified |
+
+Measured 2026-11-17 with Claude Code 2.1.322 · sonnet · 3 runs per case · codex-cli 0.154.0
 <!-- skill-eval:end -->
 
 ## How it works
